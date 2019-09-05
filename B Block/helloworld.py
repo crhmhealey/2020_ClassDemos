@@ -1,1 +1,5 @@
-print('Hello, world!')
+print('\nHello, world! ', end='')
+user_response = input('Ca va?\n')
+print("I'm glad!")
+user_name = input("What is your name?")
+print('Nice to meet you,'+user_name)
